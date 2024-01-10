@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B9041EF32B4D7E3B00C1E230 /* DetailedHabitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9041EF22B4D7E3B00C1E230 /* DetailedHabitView.swift */; };
 		B98DA6B92B4C11BD00C9991D /* BetHabitOfflineApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98DA6B82B4C11BD00C9991D /* BetHabitOfflineApp.swift */; };
 		B98DA6BB2B4C11BD00C9991D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98DA6BA2B4C11BD00C9991D /* ContentView.swift */; };
 		B98DA6BD2B4C11BD00C9991D /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98DA6BC2B4C11BD00C9991D /* Item.swift */; };
@@ -15,13 +16,11 @@
 		B98DA6CB2B4C1A7900C9991D /* HabitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98DA6CA2B4C1A7900C9991D /* HabitModel.swift */; };
 		B98DA6CF2B4C1E7900C9991D /* HabitCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98DA6CE2B4C1E7900C9991D /* HabitCardView.swift */; };
 		B98DA6D22B4C1F5D00C9991D /* DummyHabit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98DA6D12B4C1F5D00C9991D /* DummyHabit.swift */; };
-		B98DA6D42B4C22B200C9991D /* HabitCardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98DA6D32B4C22B200C9991D /* HabitCardModel.swift */; };
 		B98DA6D72B4CFD6A00C9991D /* DateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98DA6D62B4CFD6A00C9991D /* DateHelper.swift */; };
-		B98DA6D92B4CFDF600C9991D /* LargeHabitCardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98DA6D82B4CFDF600C9991D /* LargeHabitCardModel.swift */; };
-		B98DA6DB2B4CFE0D00C9991D /* LargeHabitCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98DA6DA2B4CFE0D00C9991D /* LargeHabitCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B9041EF22B4D7E3B00C1E230 /* DetailedHabitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedHabitView.swift; sourceTree = "<group>"; };
 		B98DA6B52B4C11BD00C9991D /* BetHabitOffline.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BetHabitOffline.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B98DA6B82B4C11BD00C9991D /* BetHabitOfflineApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetHabitOfflineApp.swift; sourceTree = "<group>"; };
 		B98DA6BA2B4C11BD00C9991D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -31,10 +30,7 @@
 		B98DA6CA2B4C1A7900C9991D /* HabitModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitModel.swift; sourceTree = "<group>"; };
 		B98DA6CE2B4C1E7900C9991D /* HabitCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitCardView.swift; sourceTree = "<group>"; };
 		B98DA6D12B4C1F5D00C9991D /* DummyHabit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyHabit.swift; sourceTree = "<group>"; };
-		B98DA6D32B4C22B200C9991D /* HabitCardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitCardModel.swift; sourceTree = "<group>"; };
 		B98DA6D62B4CFD6A00C9991D /* DateHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateHelper.swift; sourceTree = "<group>"; };
-		B98DA6D82B4CFDF600C9991D /* LargeHabitCardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeHabitCardModel.swift; sourceTree = "<group>"; };
-		B98DA6DA2B4CFE0D00C9991D /* LargeHabitCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeHabitCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,8 +88,6 @@
 			isa = PBXGroup;
 			children = (
 				B98DA6CA2B4C1A7900C9991D /* HabitModel.swift */,
-				B98DA6D32B4C22B200C9991D /* HabitCardModel.swift */,
-				B98DA6D82B4CFDF600C9991D /* LargeHabitCardModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -102,7 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				B98DA6CE2B4C1E7900C9991D /* HabitCardView.swift */,
-				B98DA6DA2B4CFE0D00C9991D /* LargeHabitCardView.swift */,
+				B9041EF22B4D7E3B00C1E230 /* DetailedHabitView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -194,11 +188,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B98DA6CF2B4C1E7900C9991D /* HabitCardView.swift in Sources */,
+				B9041EF32B4D7E3B00C1E230 /* DetailedHabitView.swift in Sources */,
 				B98DA6D72B4CFD6A00C9991D /* DateHelper.swift in Sources */,
-				B98DA6D92B4CFDF600C9991D /* LargeHabitCardModel.swift in Sources */,
-				B98DA6D42B4C22B200C9991D /* HabitCardModel.swift in Sources */,
 				B98DA6CB2B4C1A7900C9991D /* HabitModel.swift in Sources */,
-				B98DA6DB2B4CFE0D00C9991D /* LargeHabitCardView.swift in Sources */,
 				B98DA6BB2B4C11BD00C9991D /* ContentView.swift in Sources */,
 				B98DA6D22B4C1F5D00C9991D /* DummyHabit.swift in Sources */,
 				B98DA6BD2B4C11BD00C9991D /* Item.swift in Sources */,
