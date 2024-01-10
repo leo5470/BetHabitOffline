@@ -34,7 +34,7 @@ struct HabitCardView: View {
             Spacer()
                 .frame(height: 30)
             ProgressView(value: Float(completedRate) / 100)
-                .tint(Color(red: 0.92, green: 0.51, blue: 0.21))
+                .tint(.accent)
                 .padding(.trailing, 20.0)
         }
         .frame(width: 340, height: 220)
