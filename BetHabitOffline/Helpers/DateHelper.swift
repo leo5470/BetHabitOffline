@@ -7,6 +7,12 @@
 
 import Foundation
 
+func getTodayString() -> String {
+    let dateFormatter = DateFormatter()
+    dateFormatter.dateFormat = "EEEE, d MMM y"
+    return dateFormatter.string(from: Date.now).uppercased()
+}
+
 func calcDaysDiff(_ start: Date, _ end: Date) -> Int {
     let calendar: Calendar = Calendar.current
     let startDate: Date = calendar.startOfDay(for: start)
