@@ -47,13 +47,19 @@ struct ContentView: View {
                 }
                 .padding([.leading, .trailing], 20.0)
                 .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, alignment: .leading)
-                // TODO: multiple views
-                HStack {
-                    HabitCardView(habit: getDummyHabit())
+                // TODO: Import actual data
+                ScrollView(.horizontal, showsIndicators: false) {
+                    HStack(spacing: 20) {
+                        ForEach(getDummyHabitArray()) {
+                            habit in HabitCardView(habit: habit)
+                        }
+                    }
+                    .frame(height: 225)
                 }
+                .padding([.leading, .trailing], 15)
                 
                 Spacer()
-                    .frame(height: 30)
+                    .frame(height: 20)
                 
                 HStack {
                     Text("Checked")
@@ -63,10 +69,16 @@ struct ContentView: View {
                 }
                 .padding([.leading, .trailing], 20.0)
                 .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, alignment: .leading)
-                // TODO: Multiple views
-                HStack {
-                    HabitCardView(habit: getDummyHabit())
+                // TODO: Import actual data
+                ScrollView(.horizontal, showsIndicators: false) {
+                    HStack(spacing: 20) {
+                        ForEach(getDummyHabitArray()) {
+                            habit in HabitCardView(habit: habit)
+                        }
+                    }
+                    .frame(height: 225)
                 }
+                .padding([.leading, .trailing], 15)
             }
         }
     }
