@@ -7,6 +7,26 @@
 
 import Foundation
 
+// Extension for Date to make it RawRepresentable and can be saved into AppStorage
+extension Date: RawRepresentable {
+    public typealias RawValue = String
+    public init?(rawValue: RawValue) {
+        guard let data = rawValue.data(using: .utf8),
+              let date = try? JSONDecoder().decode(Date.self, from: data) else {
+            return nil
+        }
+        self = date
+    }
+
+    public var rawValue: RawValue{
+        guard let data = try? JSONEncoder().encode(self),
+              let result = String(data:data,encoding: .utf8) else {
+            return ""
+        }
+       return result
+    }
+}
+
 func getTodayString() -> String {
     let dateFormatter = DateFormatter()
     dateFormatter.dateFormat = "EEEE, d MMM y"
@@ -30,4 +50,15 @@ func calcCompleteRate(_ passed: Int, _ total: Int) -> Int {
 
 func calcCompleteRate(_ passed: Int, _ total: Int) -> Float {
     return Float(passed) / Float(total)
+}
+
+// TODO: check logic
+func getDateInfoString(_ passedDays: Int, _ totalDays: Int) -> String {
+    let remainingDays = totalDays - passedDays
+    return String(format: "Day %d of %d, %d days remaining", arguments: [passedDays, totalDays, remainingDays])
+}
+
+func getDateInfoString(_ habit: Habit) -> String {
+    let remainingDays = habit.totalDays - habit.passedDays
+    return String(format: "Day %d of %d, %d days remaining", arguments: [habit.passedDays, habit.totalDays, remainingDays])
 }
