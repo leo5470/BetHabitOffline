@@ -10,13 +10,15 @@
 		B9041EF32B4D7E3B00C1E230 /* DetailedHabitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9041EF22B4D7E3B00C1E230 /* DetailedHabitView.swift */; };
 		B98DA6B92B4C11BD00C9991D /* BetHabitOfflineApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98DA6B82B4C11BD00C9991D /* BetHabitOfflineApp.swift */; };
 		B98DA6BB2B4C11BD00C9991D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98DA6BA2B4C11BD00C9991D /* ContentView.swift */; };
-		B98DA6BD2B4C11BD00C9991D /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98DA6BC2B4C11BD00C9991D /* Item.swift */; };
 		B98DA6BF2B4C11BF00C9991D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B98DA6BE2B4C11BF00C9991D /* Assets.xcassets */; };
 		B98DA6C22B4C11BF00C9991D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B98DA6C12B4C11BF00C9991D /* Preview Assets.xcassets */; };
 		B98DA6CB2B4C1A7900C9991D /* HabitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98DA6CA2B4C1A7900C9991D /* HabitModel.swift */; };
 		B98DA6CF2B4C1E7900C9991D /* HabitCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98DA6CE2B4C1E7900C9991D /* HabitCardView.swift */; };
 		B98DA6D22B4C1F5D00C9991D /* DummyHabit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98DA6D12B4C1F5D00C9991D /* DummyHabit.swift */; };
 		B98DA6D72B4CFD6A00C9991D /* DateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98DA6D62B4CFD6A00C9991D /* DateHelper.swift */; };
+		B9BB78C42B678B890093F7CD /* NewHabitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BB78C32B678B890093F7CD /* NewHabitView.swift */; };
+		B9BB78C62B68891F0093F7CD /* NewHabitBetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BB78C52B68891F0093F7CD /* NewHabitBetView.swift */; };
+		B9C2A70D2B6BCC7F004498A7 /* NavigationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C2A70C2B6BCC7F004498A7 /* NavigationHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,13 +26,15 @@
 		B98DA6B52B4C11BD00C9991D /* BetHabitOffline.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BetHabitOffline.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B98DA6B82B4C11BD00C9991D /* BetHabitOfflineApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetHabitOfflineApp.swift; sourceTree = "<group>"; };
 		B98DA6BA2B4C11BD00C9991D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		B98DA6BC2B4C11BD00C9991D /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		B98DA6BE2B4C11BF00C9991D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B98DA6C12B4C11BF00C9991D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B98DA6CA2B4C1A7900C9991D /* HabitModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitModel.swift; sourceTree = "<group>"; };
 		B98DA6CE2B4C1E7900C9991D /* HabitCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitCardView.swift; sourceTree = "<group>"; };
 		B98DA6D12B4C1F5D00C9991D /* DummyHabit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyHabit.swift; sourceTree = "<group>"; };
 		B98DA6D62B4CFD6A00C9991D /* DateHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateHelper.swift; sourceTree = "<group>"; };
+		B9BB78C32B678B890093F7CD /* NewHabitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewHabitView.swift; sourceTree = "<group>"; };
+		B9BB78C52B68891F0093F7CD /* NewHabitBetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewHabitBetView.swift; sourceTree = "<group>"; };
+		B9C2A70C2B6BCC7F004498A7 /* NavigationHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,8 +72,6 @@
 				B98DA6C92B4C198D00C9991D /* Views */,
 				B98DA6C82B4C197E00C9991D /* Models */,
 				B98DA6B82B4C11BD00C9991D /* BetHabitOfflineApp.swift */,
-				B98DA6BA2B4C11BD00C9991D /* ContentView.swift */,
-				B98DA6BC2B4C11BD00C9991D /* Item.swift */,
 				B98DA6BE2B4C11BF00C9991D /* Assets.xcassets */,
 				B98DA6C02B4C11BF00C9991D /* Preview Content */,
 			);
@@ -95,8 +97,11 @@
 		B98DA6C92B4C198D00C9991D /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				B98DA6BA2B4C11BD00C9991D /* ContentView.swift */,
 				B98DA6CE2B4C1E7900C9991D /* HabitCardView.swift */,
 				B9041EF22B4D7E3B00C1E230 /* DetailedHabitView.swift */,
+				B9BB78C32B678B890093F7CD /* NewHabitView.swift */,
+				B9BB78C52B68891F0093F7CD /* NewHabitBetView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -113,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				B98DA6D62B4CFD6A00C9991D /* DateHelper.swift */,
+				B9C2A70C2B6BCC7F004498A7 /* NavigationHelper.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -193,7 +199,9 @@
 				B98DA6CB2B4C1A7900C9991D /* HabitModel.swift in Sources */,
 				B98DA6BB2B4C11BD00C9991D /* ContentView.swift in Sources */,
 				B98DA6D22B4C1F5D00C9991D /* DummyHabit.swift in Sources */,
-				B98DA6BD2B4C11BD00C9991D /* Item.swift in Sources */,
+				B9BB78C42B678B890093F7CD /* NewHabitView.swift in Sources */,
+				B9C2A70D2B6BCC7F004498A7 /* NavigationHelper.swift in Sources */,
+				B9BB78C62B68891F0093F7CD /* NewHabitBetView.swift in Sources */,
 				B98DA6B92B4C11BD00C9991D /* BetHabitOfflineApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -234,6 +242,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -253,6 +262,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
@@ -297,6 +307,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -310,6 +321,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -325,9 +337,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BetHabitOffline/Preview Content\"";
+				DEVELOPMENT_TEAM = QYC9Z88RVC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = BetHabit;
@@ -336,6 +350,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -357,9 +373,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BetHabitOffline/Preview Content\"";
+				DEVELOPMENT_TEAM = QYC9Z88RVC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = BetHabit;
@@ -368,6 +386,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
