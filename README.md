@@ -7,6 +7,7 @@ An iOS offline version of leo5470/betHabit that is under development.
 - Visualize habit details by cards
 ### TODO (by priority)
 - [ ] Complete daily update
+- [ ] Add notification for daily login
 - [ ] Add view for failed habits
 - [ ] Switch habit details by sliding horizontally
 
